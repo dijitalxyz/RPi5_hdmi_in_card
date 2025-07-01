@@ -33,9 +33,13 @@
         echo "dtparam=spi=on" >> /boot/config.txt
         echo "dtparam=i2c_baudrate=10000" >> /boot/config.txt
         echo "dtparam=i2c_vc=on" >> /boot/config.txt
+        echo "" >> /boot/config.txt
         echo "camera_auto_detect=0" >> /boot/config.txt
+        echo "" >> /boot/config.txt
         echo "dtoverlay=vc4-kms-v3d,cma-512" >> /boot/config.txt
         echo "max_framebuffers=2" >> /boot/config.txt
+        echo "" >> /boot/config.txt
+        echo "[all]" >> /boot/config.txt
         echo "dtoverlay=tc358743,4lane=1" >> /boot/config.txt
         echo "dtoverlay=tc358743-audio" >> /boot/config.txt
 
