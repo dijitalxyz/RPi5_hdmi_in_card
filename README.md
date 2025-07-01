@@ -26,23 +26,27 @@
         dtoverlay=tc358743,4lane=1
         dtoverlay=tc358743-audio
 ### 22-test
-#!/bin/bash
-echo "dtparam=i2c_arm=on" >> /boot/config.txt
-echo "dtparam=i2s=on" >> /boot/config.txt
-echo "dtparam=spi=on" >> /boot/config.txt
-echo "dtparam=i2c_baudrate=10000" >> /boot/config.txt
-echo "dtparam=i2c_vc=on" >> /boot/config.txt
-echo "camera_auto_detect=0" >> /boot/config.txt
-echo "dtoverlay=vc4-kms-v3d,cma-512" >> /boot/config.txt
-echo "max_framebuffers=2" >> /boot/config.txt
-echo "dtoverlay=tc358743,4lane=1" >> /boot/config.txt
-echo "dtoverlay=tc358743-audio" >> /boot/config.txt
+
+
+        echo "dtparam=i2c_arm=on" >> /boot/config.txt
+        echo "dtparam=i2s=on" >> /boot/config.txt
+        echo "dtparam=spi=on" >> /boot/config.txt
+        echo "dtparam=i2c_baudrate=10000" >> /boot/config.txt
+        echo "dtparam=i2c_vc=on" >> /boot/config.txt
+        echo "camera_auto_detect=0" >> /boot/config.txt
+        echo "dtoverlay=vc4-kms-v3d,cma-512" >> /boot/config.txt
+        echo "max_framebuffers=2" >> /boot/config.txt
+        echo "dtoverlay=tc358743,4lane=1" >> /boot/config.txt
+        echo "dtoverlay=tc358743-audio" >> /boot/config.txt
 
 ### 3- Copy the hdmi2csi2card with all files to you RPi5
 
 ### 4- Run the enablehdmi.sh script with bash
 Make sure the device is connected to the HDMI IN
-    
+        cat hdmi2csi2card/enablehdmi.sh
+        sudo bash hdmi2csi2card/enablehdmi.sh
+        chmod +x hdmi2csi2card/enablehdmi.sh
+        
         bash enablehdmi.sh
 
 **The script is fully customizable. You can play with the variable and change the detection resolution.**
