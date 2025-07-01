@@ -43,8 +43,10 @@
 
 ### 4- Run the enablehdmi.sh script with bash
 Make sure the device is connected to the HDMI IN
+        
         cat hdmi2csi2card/enablehdmi.sh
         sudo bash hdmi2csi2card/enablehdmi.sh
+        
         chmod +x hdmi2csi2card/enablehdmi.sh
         
         bash enablehdmi.sh
