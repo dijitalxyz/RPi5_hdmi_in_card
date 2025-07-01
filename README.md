@@ -49,8 +49,8 @@
 Make sure the device is connected to the HDMI IN
 
         cd ~/Desktop
-        mkdir RPi5_hdmi_in_card
-        cd ~/RPi5_hdmi_in_card
+        mkdir hdmi2csi2card
+        cd ~/hdmi2csi2card
         wget https://raw.githubusercontent.com/FearL0rd/RPi5_hdmi_in_card/main/hdmi2csi2card/enablehdmi.sh
         wget https://raw.githubusercontent.com/FearL0rd/RPi5_hdmi_in_card/main/hdmi2csi2card/1080p25edid
         wget https://raw.githubusercontent.com/FearL0rd/RPi5_hdmi_in_card/main/hdmi2csi2card/1080p30edid
