@@ -47,6 +47,7 @@
 
 ### 4- Run the enablehdmi.sh script with bash
 Make sure the device is connected to the HDMI IN
+
         cd ~/Desktop
         mkdir RPi5_hdmi_in_card
         cd ~/RPi5_hdmi_in_card
