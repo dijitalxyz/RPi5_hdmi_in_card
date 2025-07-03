@@ -68,10 +68,9 @@ Make sure the device is connected to the HDMI IN
         wget https://raw.githubusercontent.com/FearL0rd/RPi5_hdmi_in_card/main/hdmi2csi2card/720p60edid
         
         cat hdmi2csi2card/enablehdmi.sh
-        sudo bash hdmi2csi2card/enablehdmi.sh
         chmod +x hdmi2csi2card/enablehdmi.sh
-        
-        bash ~/Desktop/hdmi2csi2card/enablehdmi.sh
+        sudo bash hdmi2csi2card/enablehdmi.sh
+        sudo bash ~/Desktop/hdmi2csi2card/enablehdmi.sh
 
 **The script is fully customizable. You can play with the variable and change the detection resolution.**
 
