@@ -54,6 +54,7 @@
 ### 3- Copy the hdmi2csi2card with all files to you RPi5
 
 ### 4- Run the enablehdmi.sh script with bash
+        https://github.com/FearL0rd/RPi5_hdmi_in_card/tree/main/hdmi2csi2card
 Make sure the device is connected to the HDMI IN
 
         cd ~/Desktop
