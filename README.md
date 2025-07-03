@@ -1,6 +1,6 @@
 # RPi5_hdmi_in_card
 **Raspberry Pi5 HDMI to CSI-2 input card based on TC358743**
-
+**ALL credits https://github.com/FearL0rd/RPi5_hdmi_in_card
 **I created this tutorial to help the community enable cheap HDMI to CSI-2 cards like Geekworm C790 based on TC358743**
 **The script intends to automatically detect the media device that keeps changing every boot**
 
