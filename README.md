@@ -63,7 +63,7 @@ Make sure the device is connected to the HDMI IN
         sudo bash hdmi2csi2card/enablehdmi.sh
         chmod +x hdmi2csi2card/enablehdmi.sh
         
-        bash enablehdmi.sh
+        bash ~/Desktop/hdmi2csi2card/enablehdmi.sh
 
 **The script is fully customizable. You can play with the variable and change the detection resolution.**
 
