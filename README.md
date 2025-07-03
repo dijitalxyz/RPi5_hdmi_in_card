@@ -8,6 +8,7 @@
 
 ### 1- Modify the config file 
         sudo nano /boot/firmware/config.txt
+        cat /boot/firmware/config.txt
 
 ### 2- Add/Modify the entries below
 
