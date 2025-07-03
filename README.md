@@ -1,7 +1,14 @@
+# https://geekworm.com/products/c790
+# https://wiki.geekworm.com/C790
+# https://wiki.geekworm.com/CSI_Manual_on_Pi_5
+# https://forums.raspberrypi.com/viewtopic.php?t=371138
+# https://forums.raspberrypi.com/viewtopic.php?p=2224405#p2224405
+**thanks for All & ALL credits https://github.com/FearL0rd/RPi5_hdmi_in_card 
+
 # RPi5_hdmi_in_card
+
 **Raspberry Pi5 HDMI to CSI-2 input card based on TC358743**
-**ALL credits https://github.com/FearL0rd/RPi5_hdmi_in_card
-**I created this tutorial to help the community enable cheap HDMI to CSI-2 cards like Geekworm C790 based on TC358743**
+**He created this tutorial to help the community enable cheap HDMI to CSI-2 cards like Geekworm C790 based on TC358743**
 **The script intends to automatically detect the media device that keeps changing every boot**
 
 ## STEPS
